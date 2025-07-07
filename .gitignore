@@ -30,3 +30,4 @@ MYMETA.*
 
 /DB-Observable-*
 tags
+.vscode/*
