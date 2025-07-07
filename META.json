@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "A reactive database module using Mojo::EventEmitter and RxPerl",
    "author" : [
-      "Marco Silva <arthurpbs@gmail.com>"
+      "Marco Arthur <arthurpbs@gmail.com>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.1.26, CPAN::Meta::Converter version 2.150010",
@@ -42,7 +42,10 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008001"
+            "DBI" : "0",
+            "Mojo::Base" : "0",
+            "RxPerl::Mojo" : "0",
+            "Try::Tiny" : "0"
          }
       },
       "test" : {
