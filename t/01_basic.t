@@ -4,7 +4,6 @@ use Test::More;
 use Test::Exception;
 use DB::Observable;
 use feature qw(signatures);
-use DDP;
 
 # Skip all tests if dependencies are missing
 eval {
