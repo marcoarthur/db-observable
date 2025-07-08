@@ -57,6 +57,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/marcoarthur/db-observable/issues"
+      },
+      "homepage" : "https://github.com/marcoarthur/db-observable",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/marcoarthur/db-observable.git",
+         "web" : "https://github.com/marcoarthur/db-observable"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 4.16",
    "x_static_install" : 1

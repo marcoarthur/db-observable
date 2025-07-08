@@ -1,4 +1,4 @@
-
+[![Actions Status](https://github.com/marcoarthur/db-observable/actions/workflows/test.yml/badge.svg)](https://github.com/marcoarthur/db-observable/actions)
 # NAME
 
 DB::Observable - A reactive database module using Mojo::EventEmitter and RxPerl
