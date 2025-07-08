@@ -7,4 +7,5 @@ on test => sub {
     requires 'Test::More';
     requires 'Test::Mojo';
     requires 'DBD::SQLite';
+    requires 'Test::Exception';
 };
