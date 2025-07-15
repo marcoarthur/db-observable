@@ -23,7 +23,8 @@ jobs:
           cpanm -nq Devel::Cover Devel::Cover::Report::Coveralls
 
       - name: Run tests with coverage
-        env: PERL5OPT: -MDevel::Cover
+        env: 
+          PERL5OPT: -MDevel::Cover
         run: |
           prove -lv
 
