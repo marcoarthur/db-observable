@@ -1,4 +1,8 @@
 [![Actions Status](https://github.com/marcoarthur/db-observable/actions/workflows/test.yml/badge.svg)](https://github.com/marcoarthur/db-observable/actions)
+# STATUS
+
+\[!\[Coverage Status\](https://coveralls.io/repos/github/marcoarthur/db-observable/badge.svg?branch=main)\](https://coveralls.io/github/marcoarthur/db-observable?branch=main)
+
 # NAME
 
 DB::Observable - A reactive database module using Mojo::EventEmitter and RxPerl

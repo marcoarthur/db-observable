@@ -94,6 +94,10 @@ sub run_query($self, $q, $cb = sub { $_ }) {
 
 =pod
 
+=head1 STATUS
+
+[![Coverage Status](https://coveralls.io/repos/github/marcoarthur/db-observable/badge.svg?branch=main)](https://coveralls.io/github/marcoarthur/db-observable?branch=main)
+
 =head1 NAME
 
 DB::Observable - A reactive database module using Mojo::EventEmitter and RxPerl
