@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           cpanm -nq --installdeps --with-develop --with-recommends .
-          cpanm -nq Devel::Cover Coveralls::Reporter::GitHub
+          cpanm -nq Devel::Cover Devel::Cover::Report::Coveralls
 
       - name: Run tests with coverage
         run: |
